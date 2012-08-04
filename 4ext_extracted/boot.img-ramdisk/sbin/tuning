@@ -1,0 +1,4 @@
+#!/sbin/sh
+
+echo 128 > /sys/devices/virtual/bdi/179:0/read_ahead_kb 2> /dev/null
+exit 0
